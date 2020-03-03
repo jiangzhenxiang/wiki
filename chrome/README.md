@@ -204,9 +204,7 @@ chrome.runtime.onInstalled.addListener(function() {
 // 在popup.js中添加如下代码。
 changeColor.onclick = function(element) {
     let color = element.target.value;
-    // 获取当前选项卡  active：当前tab是否激活 。
-    // currentWindow：选项卡是否在当前窗口。
-    
+    // 获取当前选项卡  active：当前tab是否激活 。currentWindow：选项卡是否在当前窗口
     // window是指chrome窗口，tab是指chrome的选项卡。
     // 如Cmd+N就是打开一个新的window，cmd+T就是打开一个新的Tab
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
