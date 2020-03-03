@@ -1,7 +1,7 @@
 # chrome扩展程序开发
 
 介绍如何进行chrome插件开发，打包，上传chrome应用商店，更新，安装的开发流程。
-> 相关项目：借贷宝内部考勤系统报销插件 [http://git.jdb-dev.com/pluto/jdbChrome](http://git.jdb-dev.com/pluto/jdbChrome)
+> 相关项目：内部考勤系统报销插件 
 
 ## 什么是chrome插件
 
